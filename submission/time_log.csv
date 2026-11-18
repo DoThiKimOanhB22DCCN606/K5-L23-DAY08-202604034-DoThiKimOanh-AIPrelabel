@@ -1,1 +1,7 @@
 step,images,minutes,note
+gold_manual,4,25, Gán thủ công bằng CVAT trước khi xem pre-label.
+model_tour,8,30, Thử YOLO26 ở hai ngưỡng; quan sát YOLOE và SAM trên pilot.
+threshold_sweep,4,10, Chạy threshold_sweep trên 4 ảnh gold bằng script local.
+batch_review,24,95, Nạp pre_traps_import vào CVAT; review và export batch_reviewed.
+sam_mask,3,15, Tạo ba mask SAM 2.1 cho cyclo và tuk-tuk.
+calibration_qc,24,45, Calibration guideline, điền QC và hoàn thiện báo cáo.
